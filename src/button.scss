@@ -29,14 +29,15 @@
 
   &:hover,
   &:focus {
-    color: $--color-primary;
-    border-color: $--color-primary-light-7;
-    background-color: $--color-primary-light-9;
+    color: $--color-text-primary;
+    border-color: $--border-color-lighter;
+    background-color: $--border-color-lighter;
   }
 
   &:active {
-    color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
-    border-color: mix($--color-black, $--color-primary, $--button-active-shade-percent);
+    color: $--color-text-primary;
+    border-color: $--border-color-base;
+    background-color: $--border-color-base;
     outline: none;
   }
 
