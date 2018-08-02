@@ -4,6 +4,9 @@
 
 @mixin menu-item {
   height: 56px;
+  font-weight: $--font-weight-primary;
+  font-stretch:100%;
+  font-style:normal;
   line-height: 56px;
   font-size: 14px;
   color: $--menu-item-color;
@@ -20,7 +23,7 @@
   }
 
   i {
-    color: $--color-text-secondary;
+    color: $--color-text-regular;
   }
 
   &:hover,
@@ -37,7 +40,6 @@
 }
 
 @include b(menu) {
-  border-right: solid 1px #e6e6e6;
   list-style: none;
   position: relative;
   margin: 0;
@@ -47,14 +49,13 @@
 
   @include m(horizontal) {
     border-right: none;
-    border-bottom: solid 1px #e6e6e6;
     & > .el-menu-item {
       float: left;
       height: 60px;
       line-height: 60px;
       margin: 0;
       border-bottom: 2px solid transparent;
-      color: $--color-text-secondary;
+      color: $--color-text-regular;
 
       a,
       a:hover {
@@ -63,7 +64,7 @@
 
       &:not(.is-disabled):hover,
       &:not(.is-disabled):focus{
-        background-color: #fff;
+        background-color: $--background-color-base;
       }
     }
     & > .el-submenu {
@@ -88,10 +89,10 @@
         height: 60px;
         line-height: 60px;
         border-bottom: 2px solid transparent;
-        color: $--color-text-secondary;
+        color: $--color-text-regular;
 
         &:hover {
-          background-color: #fff;
+          background-color: $--background-color-base;
         }
       }
       & .el-submenu__icon-arrow {
@@ -104,12 +105,12 @@
     & .el-menu {
       & .el-menu-item,
       & .el-submenu__title {
-        background-color: $--color-white;
+        background-color: $--background-color-base-dark;
         float: none;
         height: 36px;
         line-height: 36px;
         padding: 0 10px;
-        color: $--color-text-secondary;
+        color: $--color-text-regular;
 
         &.is-active {
           color: $--color-text-primary;
@@ -211,7 +212,7 @@
     }
   }
 }
-  
+
 @include b(submenu) {
   list-style: none;
   margin: 0;
@@ -221,7 +222,7 @@
     @include menu-item;
 
     &:hover {
-      background-color: $--menu-item-hover-fill;
+      background-color: $--background-color-base;
     }
   }
   & .el-menu {
@@ -276,7 +277,7 @@
     padding: 7px 0 7px 20px;
     line-height: normal;
     font-size: 12px;
-    color: $--color-text-secondary;
+    color: $--color-text-regular;
   }
 }
 

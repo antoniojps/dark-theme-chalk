@@ -42,7 +42,7 @@ $--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
 
 $--color-text-primary: #FFFFFF !default;
 $--color-text-regular: #D0D2DB !default;
-$--color-text-secondary: #6A747D !default;
+$--color-text-secondary: #D0D2DB !default;
 $--color-text-placeholder: #6A747D !default;
 
 /* Link
@@ -53,7 +53,8 @@ $--link-hover-color: $--color-primary !default;
 /* Background
 -------------------------- */
 $--background-color-base: #262831 !default;
-$--background-color-base-light: darken($--background-color-base,3%);
+$--background-color-base-light: #434856;
+$--background-color-base-dark: #20222A;
 
 /* Border
 -------------------------- */
@@ -599,8 +600,8 @@ $--steps-padding: 20px !default;
 /* Menu
 --------------------------*/
 $--menu-item-color: $--color-text-primary !default;
-$--menu-item-fill: $--color-white !default;
-$--menu-item-hover-fill: $--color-primary-light-9 !default;
+$--menu-item-fill: $--background-color-base-dark !default;
+$--menu-item-hover-fill: $--background-color-base !default;
 
 /* Rate
 --------------------------*/
