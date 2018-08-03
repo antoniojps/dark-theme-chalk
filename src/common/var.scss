@@ -323,7 +323,7 @@ $--input-border: $--border-base !default;
 $--input-border-color: $--border-color-base !default;
 $--input-border-radius: $--border-radius-base !default;
 $--input-border-color-hover: $--border-color-hover !default;
-$--input-fill: $--color-info !default;
+$--input-fill: $--background-color-base-light!default;
 $--input-fill-disabled: $--disabled-fill-base !default;
 $--input-color-disabled: $--font-color-disabled-base !default;
 $--input-icon-color: $--color-text-placeholder !default;
@@ -333,7 +333,7 @@ $--input-max-width: 314px !default;
 $--input-hover-border: $--border-color-hover !default;
 $--input-clear-hover-color: $--color-text-secondary !default;
 
-$--input-focus-border: $--color-primary !default;
+$--input-focus-border: $--border-color-hover !default;
 $--input-focus-fill: $--background-color-base !default;
 
 $--input-disabled-fill: $--disabled-fill-base !default;
