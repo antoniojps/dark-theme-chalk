@@ -9,9 +9,9 @@
   width: $--msgbox-width;
   padding-bottom: 10px;
   vertical-align: middle;
-  background-color: $--color-white;
+  background-color: $--background-color-base;
   border-radius: $--msgbox-border-radius;
-  border: 1px solid $--border-color-lighter;
+  border: 1px solid $--border-color-light;
   font-size: $--msgbox-font-size;
   box-shadow: $--box-shadow-light;
   text-align: left;
@@ -61,7 +61,7 @@
     cursor: pointer;
 
     .el-message-box__close {
-      color: $--color-info;
+      color: $--border-color-light;
     }
 
     &:focus, &:hover {

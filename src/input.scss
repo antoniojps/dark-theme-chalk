@@ -20,7 +20,6 @@
     background-image: none;
     border: $--input-border;
     border-radius: $--input-border-radius;
-    transition: $--border-transition-base;
 
     &::placeholder {
       color: $--input-placeholder-color;
@@ -102,12 +101,11 @@
 
   @include e(suffix) {
     position: absolute;
-    height: 100%;
+    height: 80%;
     right: 5px;
     top: 0;
     text-align: center;
     color: $--input-icon-color;
-    transition: all .3s;
     pointer-events: none;
   }
 
@@ -122,14 +120,12 @@
     top: 0;
     text-align: center;
     color: $--input-icon-color;
-    transition: all .3s;
   }
 
   @include e(icon) {
     height: 100%;
     width: 25px;
     text-align: center;
-    transition: all .3s;
     line-height: $--input-height;
 
     &:after {
