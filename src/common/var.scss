@@ -30,6 +30,10 @@ $--color-warning: #9F86FF !default;
 $--color-danger: #E64759 !default;
 $--color-info: #E64759 !default;
 
+$--color-success-dark: #197E5D !default;
+$--color-warning-dark: #5F4AAD !default;
+$--color-danger-dark: #83333C !default;
+
 $--color-success-light: mix($--color-white, $--color-success, 80%) !default;
 $--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
 $--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;

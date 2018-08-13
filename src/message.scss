@@ -40,29 +40,29 @@
   }
 
   @include m(success) {
-    background-color: $--color-success-lighter;
-    border-color: $--color-success-light;
+    background-color: $--color-success-dark;
+    border-color: $--color-success;
 
     .el-message__content {
-      color: $--message-success-color;
+      color: $--color-white;
     }
   }
 
   @include m(warning) {
-    background-color: $--color-warning-lighter;
-    border-color: $--color-warning-light;
+    background-color: $--color-warning-dark;
+    border-color: $--color-warning;
 
     .el-message__content {
-      color: $--message-warning-color;
+      color: $--color-white;
     }
   }
 
   @include m(error) {
-    background-color: $--color-danger-lighter;
-    border-color: $--color-danger-light;
+    background-color: $--color-danger-dark;
+    border-color: $--color-danger;
 
     .el-message__content {
-      color: $--message-danger-color;
+      color: $--color-white;
     }
   }
 
