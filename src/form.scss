@@ -124,7 +124,7 @@
   @include when(required) {
     .el-form-item__label:before {
       content: '*';
-      color: $--color-danger;
+      color: $--color-primary;
       margin-right: 4px;
     }
   }
