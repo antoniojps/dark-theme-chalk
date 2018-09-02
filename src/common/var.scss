@@ -28,7 +28,7 @@ $--color-primary-light-9: mix($--color-black, $--color-primary, 90%) !default; /
 $--color-success: #16C98E !default;
 $--color-warning: #9F86FF !default;
 $--color-danger: #E64759 !default;
-$--color-info: #E64759 !default;
+$--color-info: $--color-white !default;
 
 $--color-success-dark: #197E5D !default;
 $--color-warning-dark: #5F4AAD !default;
@@ -282,7 +282,7 @@ $--msgbox-danger-color: $--color-danger !default;
 -------------------------- */
 $--message-shadow: $--box-shadow-base !default;
 $--message-min-width: 380px !default;
-$--message-background-color: #edf2fc !default;
+$--message-background-color: $--background-color-base !default;
 $--message-padding: 15px 15px 15px 20px !default;
 $--message-content-color: $--color-text-regular !default;
 $--message-close-color: $--color-text-placeholder !default;
